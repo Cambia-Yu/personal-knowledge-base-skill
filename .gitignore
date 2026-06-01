@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Private local config — NEVER commit
+pkb.local.json
+*.local.json
+
+# Secrets & environment
+.env
+.env.*
+*.key
+*.pem
+*.token
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
